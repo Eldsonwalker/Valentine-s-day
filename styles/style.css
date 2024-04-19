@@ -77,22 +77,16 @@ body {
 .titulo__destaque {
     color: #B80000;
 }
-
-
-
 .perfil__img{
-    /* display: block inline; */
-    flex-wrap: wrap;
-    padding: 5%;
-    margin: 0%;
-    height: 420px;
+    display: inline-block;
+    height: 320px;
     width: auto;
-    border-radius: 5%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 2% 2% 2%;
+    position: relative;
 }
-
-
-
-
 .rodape {
     padding: 24px;
     color: var(--cor-principal);
@@ -102,6 +96,7 @@ body {
     font-size: 24px;
     font-weight: 400px;
 }
+
 .videoprincipal {
     height: 520px;
     width: auto;
@@ -112,4 +107,83 @@ body {
 .secaoprincipal{
     display: flex;
 
+}
+
+@media screen and (max-width: 850px) {
+    .secaoprincipal {
+        display: block;
+    }
+    .barra__navegacao{
+        display:block;
+        
+        padding: 5% 15%;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .secaoprincipal__texto{
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .barra__navegacao__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;   
+        position: relative;
+                    
+    }
+    body{
+        font-size: 16px;
+    }
+    .barra__navegacao__nav__a {
+        font-family: var(--fonte-secundaria);
+        font-size: 2em;
+        font-weight: 600;
+        color: #ffffff;
+        text-decoration: none;
+    
+    }
+    .secaoprincipal__texto__titulo{
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        gap: 24px;
+        font-size: 2em;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .secaoprincipal__texto__carta{
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        
+        font-size: 2em;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .galeria__fotos{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+    }
+    
+    .perfil__img{
+        padding: 2% 2% 2% 2%;
+        justify-content: center;
+    }
 }
