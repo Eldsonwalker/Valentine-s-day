@@ -39,7 +39,7 @@ body {
 }
 .barra__navegacao__nav__a {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #ffffff;
     text-decoration: none;
@@ -52,23 +52,23 @@ body {
     justify-content: space-between;
 }
 .secaoprincipal__texto{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    font-size: 36px;
+    font-size: 2.25rem;
     gap: 40px;
     color: var(--cor-secundaria);
 
 }
 .secaoprincipal__texto__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
     text-align: center;
 }
 
 .secaoprincipal__texto__carta{
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
     padding: 5% 15%;
@@ -99,7 +99,7 @@ body {
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400px;
 }
 .videoprincipal {
